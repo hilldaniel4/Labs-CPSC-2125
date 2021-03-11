@@ -6,21 +6,25 @@
     <title>Internet Programming Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
+  <body onload="updateDate()">
     <header>
     <h1>CPSC 2125 Portfolio</h1>
     </header>
-    <nav>
-    <ul>
-      <li><a href="lab1.html">Lab 1</a> </li>
-      <li><a href="lab2.html">Lab 2</a> </li>
-      <li><a href="lab3.html">Lab 3</a></li>
-      <li><a href="lab4.html">Lab 4</a></li>
-    </ul>
+    <div class="grid-container"
+    <nav class="grid-item item1">
+      <ul>
+        <li><a href="lab1.html">Lab 1</a> </li>
+        <li><a href="lab2.html">Lab 2</a> </li>
+        <li><a href="lab3.html">Lab 3</a></li>
+        <li><a href="lab4.html">Lab 4</a></li>
+        <li><a href="lab5.html">Lab 5</a></li>
+       </ul>
     </nav>
-    <main>
+    <main class="grid-item item2">
     </main>
+    </div>
     <footer>
+    <p id="update"></p>
     </footer>
     <script src="script.js"></script>
   </body>
